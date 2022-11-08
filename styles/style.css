@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #F0F4FF, #A5B6EE);
+}
+
+.timer {
+    width: 500px;
+    margin: 72px auto 0;
+}
+
+.timer .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.timer .form-timer {
+    padding: 48px 50px 40px;
+    background: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+    box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.form-timer .title {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 23px;
+}
+
+.wrapper-time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.wrapper-btn {
+    text-align: center;
+}
+
+.wrapper-btn button:first-child {
+    margin-right: 12px;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+    color: #8596BF;
+}

@@ -1,0 +1,58 @@
+body {
+    font-weight: 400;
+}
+
+button {
+    padding: 16px 23px;
+    border: none;
+}
+
+.btn-active {
+    color: #FFF;
+    border-radius: 50px;
+}
+
+.btn-active.start {
+    background-color: #5180FF;
+}
+
+.btn-active.pause {
+    background-color: #15C2B8;
+}
+
+.btn-active.reset {
+    background-color: #FB7099;
+}
+
+.btn-disabled {
+    color: #617199;
+    background-color: #324577;
+    border-radius: 50px;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time label {
+    color: #A5B6EE;
+    margin-bottom: 4px;
+}
+
+.time input {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+    border: 1px solid #354971;
+    border-radius: 4px;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.time:first-child,
+.time:nth-child(2) {
+    margin-right: 22px;
+}
