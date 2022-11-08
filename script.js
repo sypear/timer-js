@@ -102,8 +102,9 @@ inpHrs.addEventListener("keydown", (e) => {
     btnTrigger.classList.contains("btn-disabled") &&
     btnReset.classList.contains("btn-disabled")
   ) {
-    btnTrigger.setAttribute("class", "btn-active pause fs-md fw-bold");
+    btnTrigger.setAttribute("class", "btn-active start fs-md fw-bold");
     btnReset.setAttribute("class", "btn-active reset fs-md fw-bold");
+    btnTrigger.innerText = "START";
     triggerState = "start";
   }
 });
@@ -113,8 +114,9 @@ inpMin.addEventListener("keydown", (e) => {
     btnTrigger.classList.contains("btn-disabled") &&
     btnReset.classList.contains("btn-disabled")
   ) {
-    btnTrigger.setAttribute("class", "btn-active pause fs-md fw-bold");
+    btnTrigger.setAttribute("class", "btn-active start fs-md fw-bold");
     btnReset.setAttribute("class", "btn-active reset fs-md fw-bold");
+    btnTrigger.innerText = "START";
     triggerState = "start";
   }
 });
@@ -124,8 +126,9 @@ inpSec.addEventListener("keydown", (e) => {
     btnTrigger.classList.contains("btn-disabled") &&
     btnReset.classList.contains("btn-disabled")
   ) {
-    btnTrigger.setAttribute("class", "btn-active pause fs-md fw-bold");
+    btnTrigger.setAttribute("class", "btn-active start fs-md fw-bold");
     btnReset.setAttribute("class", "btn-active reset fs-md fw-bold");
+    btnTrigger.innerText = "START";
     triggerState = "start";
   }
 });
